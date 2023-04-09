@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "172173857594",
+    "firebase_url": "https://login-register-firebase-79ef6-default-rtdb.firebaseio.com",
+    "project_id": "login-register-firebase-79ef6",
+    "storage_bucket": "login-register-firebase-79ef6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:172173857594:android:d1775100d126fc7649b603",
+        "android_client_info": {
+          "package_name": "com.monstertechno.moderndashbord"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "172173857594-cs9gqskl9rnla3kp1tqi50n9faepi5a2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlMBs1KkE7CE9wE-I0YY4YTy2Upr0oQOk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "172173857594-cs9gqskl9rnla3kp1tqi50n9faepi5a2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

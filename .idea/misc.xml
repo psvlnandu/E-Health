@@ -3,18 +3,22 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Nandhu/AndroidStudioProjects/E-health/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2205" />
         <entry key="..\:/Users/Nandhu/AndroidStudioProjects/E-health/app/src/main/res/drawable/bills_img_background.xml" value="0.133" />
         <entry key="..\:/Users/Nandhu/AndroidStudioProjects/E-health/app/src/main/res/drawable/button_background_blue.xml" value="0.1" />
         <entry key="..\:/Users/Nandhu/AndroidStudioProjects/E-health/app/src/main/res/drawable/delete.xml" value="0.1155" />
         <entry key="..\:/Users/Nandhu/AndroidStudioProjects/E-health/app/src/main/res/drawable/edit_text_bg.xml" value="0.1775" />
         <entry key="..\:/Users/Nandhu/AndroidStudioProjects/E-health/app/src/main/res/drawable/edit_txt_white.xml" value="0.1035" />
+        <entry key="..\:/Users/Nandhu/AndroidStudioProjects/E-health/app/src/main/res/drawable/entertainment_img_background.xml" value="0.2205" />
         <entry key="..\:/Users/Nandhu/AndroidStudioProjects/E-health/app/src/main/res/drawable/general_img_background.xml" value="0.1295" />
         <entry key="..\:/Users/Nandhu/AndroidStudioProjects/E-health/app/src/main/res/drawable/ic_baseline_clear_24.xml" value="0.1595" />
         <entry key="..\:/Users/Nandhu/AndroidStudioProjects/E-health/app/src/main/res/drawable/ic_baseline_cloud_upload_24.xml" value="0.1595" />
         <entry key="..\:/Users/Nandhu/AndroidStudioProjects/E-health/app/src/main/res/drawable/ic_baseline_edit_24.xml" value="0.1915" />
+        <entry key="..\:/Users/Nandhu/AndroidStudioProjects/E-health/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.2205" />
         <entry key="..\:/Users/Nandhu/AndroidStudioProjects/E-health/app/src/main/res/drawable/ic_baseline_format_list_bulleted_24.xml" value="0.1595" />
         <entry key="..\:/Users/Nandhu/AndroidStudioProjects/E-health/app/src/main/res/drawable/ic_baseline_local_hospital_24.xml" value="0.147" />
         <entry key="..\:/Users/Nandhu/AndroidStudioProjects/E-health/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.1485" />
+        <entry key="..\:/Users/Nandhu/AndroidStudioProjects/E-health/app/src/main/res/drawable/ic_baseline_prescritpion.xml" value="0.2205" />
         <entry key="..\:/Users/Nandhu/AndroidStudioProjects/E-health/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.1595" />
         <entry key="..\:/Users/Nandhu/AndroidStudioProjects/E-health/app/src/main/res/drawable/ic_launcher_background.xml" value="0.159" />
         <entry key="..\:/Users/Nandhu/AndroidStudioProjects/E-health/app/src/main/res/drawable/img_bg_circle.xml" value="0.159" />

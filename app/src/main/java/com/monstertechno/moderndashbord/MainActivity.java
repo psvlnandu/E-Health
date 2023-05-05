@@ -1,21 +1,15 @@
 package com.monstertechno.moderndashbord;
 
-import androidx.activity.result.ActivityResultCallback;
 import androidx.activity.result.ActivityResultLauncher;
-import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentManager;
-import androidx.fragment.app.FragmentTransaction;
 
-import android.content.ContentResolver;
 import android.content.Intent;
 import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
@@ -23,36 +17,22 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
-import android.webkit.MimeTypeMap;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
-import com.google.android.gms.cast.framework.media.ImagePicker;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.material.appbar.MaterialToolbar;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationBarView;
 import com.google.android.material.navigation.NavigationView;
-import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.auth.FirebaseUser;
-import com.google.firebase.database.DataSnapshot;
-import com.google.firebase.database.DatabaseError;
-import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.Query;
-import com.google.firebase.database.ValueEventListener;
 
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
-import com.monstertechno.moderndashbord.HealthRecordPage.Vaccination;
-import com.monstertechno.moderndashbord.databinding.ActivityMainBinding;
+import com.monstertechno.moderndashbord.RateUs.RateUsDialog;
 
-
-import java.net.Inet4Address;
 
 import de.hdodenhof.circleimageview.CircleImageView;
 
@@ -96,7 +76,8 @@ public class MainActivity extends AppCompatActivity implements NavigationBarView
         DrawerLayout drawerLayout=findViewById(R.id.drawerLayout);
         navigationView=findViewById(R.id.navigation_view);
         CircleImageView profile_image_in_nv=findViewById(R.id.profile_image_in_nv);
-        CircleImageView nav_header_img_profile=findViewById(R.id.nav_header_profile_image);
+
+        ImageView nav_header_img_profile=findViewById(R.id.nav_header_profile_image);
 
 
 
@@ -188,6 +169,24 @@ public class MainActivity extends AppCompatActivity implements NavigationBarView
             case R.id.nav_home:
                 Toast.makeText(this, "Home", Toast.LENGTH_LONG).show();
                 break;
+            case R.id.nav_rateUs:
+                RateUsDialog rateUsDialog = new RateUsDialog(  MainActivity.this);
+                rateUsDialog.getWindow().setBackgroundDrawable(new ColorDrawable(getResources().getColor(android.R.color.transparent)));
+                rateUsDialog.setCancelable(false);
+                rateUsDialog.show();
+
+              /*
+                rateUsDialog.setCancelable(false);
+                rateUsDialog.show();
+
+                 */
+
+                break;
+            case R.id.nav_share:
+                shareData(user_name);
+            default:
+                startActivity(new Intent(getApplicationContext(),MainActivity.class));
+
 
 
         }
@@ -212,6 +211,17 @@ public class MainActivity extends AppCompatActivity implements NavigationBarView
 
         }
         return false;
+    }
+    public void shareData(String username)
+    {
+        Intent i=new Intent(Intent.ACTION_SEND);
+        i.setType("text/plain");//means we are only passing plain text to next inetnt
+
+         // i.putExtra(Intent.EXTRA_SUBJECT,username+" got lucky today!");
+        i.putExtra(Intent.EXTRA_TEXT,username+"is sharing App with you");
+
+
+        startActivity(Intent.createChooser(i,"Choose a platform"));// to open sharable apps
     }
 
 }

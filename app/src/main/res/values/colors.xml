@@ -15,4 +15,8 @@
     <color name="background_color_50">#B3FFFFFF</color>
     <color name="text_color_header">#323232</color>
     <color name="text_color_description">#616161</color>
+
+
+    <color name="dailog_color_1">#1e6091</color>
+    <color name="dailog_color_2">#184e77</color>
 </resources>

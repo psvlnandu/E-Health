@@ -34,7 +34,12 @@
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
-
+    <style name="MyRatingBar" parent="Widget.AppCompat.RatingBar">
+        <!--non selected star color-->
+        <item name="colorControlNormal">#4D000000</item>
+        <!--selected star color-->
+        <item name="colorControlActivated">@color/dailog_color_1</item>
+    </style>
     <style name="Theme.ModernDashbord.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="Theme.ModernDashbord.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />

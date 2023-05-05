@@ -13,6 +13,9 @@
         android:roundIcon="@drawable/anime_doc"
         android:supportsRtl="true"
         android:theme="@style/Theme.ModernDashbord">
+        <activity
+            android:name=".Bots.BookingAppointment"
+            android:exported="false" />
 
         <activity
             android:name=".Hospitalization.Update"
@@ -86,7 +89,7 @@
         <activity
             android:name=".ChatBots.Chatbot"
             android:exported="false"
-            android:parentActivityName=".MainActivity"/>
+            android:parentActivityName=".MainActivity" />
 
         <meta-data
             android:name="preloaded_fonts"

@@ -27,9 +27,11 @@
         <entry key="..\:/Users/Nandhu/AndroidStudioProjects/E-health/app/src/main/res/drawable/message.xml" value="0.1155" />
         <entry key="..\:/Users/Nandhu/AndroidStudioProjects/E-health/app/src/main/res/drawable/person.xml" value="0.1485" />
         <entry key="..\:/Users/Nandhu/AndroidStudioProjects/E-health/app/src/main/res/drawable/rate.xml" value="0.1155" />
+        <entry key="..\:/Users/Nandhu/AndroidStudioProjects/E-health/app/src/main/res/drawable/round_back_blue_10.xml" value="0.226" />
         <entry key="..\:/Users/Nandhu/AndroidStudioProjects/E-health/app/src/main/res/drawable/round_background.xml" value="0.159" />
         <entry key="..\:/Users/Nandhu/AndroidStudioProjects/E-health/app/src/main/res/drawable/white_bg.xml" value="0.2" />
         <entry key="..\:/Users/Nandhu/AndroidStudioProjects/E-health/app/src/main/res/layout/activity_base.xml" value="0.25" />
+        <entry key="..\:/Users/Nandhu/AndroidStudioProjects/E-health/app/src/main/res/layout/activity_booking_appointment.xml" value="0.2234375" />
         <entry key="..\:/Users/Nandhu/AndroidStudioProjects/E-health/app/src/main/res/layout/activity_chat_gpt.xml" value="0.25" />
         <entry key="..\:/Users/Nandhu/AndroidStudioProjects/E-health/app/src/main/res/layout/activity_chatbot.xml" value="0.264" />
         <entry key="..\:/Users/Nandhu/AndroidStudioProjects/E-health/app/src/main/res/layout/activity_chatgpt.xml" value="0.25" />
@@ -38,6 +40,7 @@
         <entry key="..\:/Users/Nandhu/AndroidStudioProjects/E-health/app/src/main/res/layout/activity_hospitalization.xml" value="0.172" />
         <entry key="..\:/Users/Nandhu/AndroidStudioProjects/E-health/app/src/main/res/layout/activity_login.xml" value="0.16" />
         <entry key="..\:/Users/Nandhu/AndroidStudioProjects/E-health/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/Nandhu/AndroidStudioProjects/E-health/app/src/main/res/layout/activity_rate_us_dailog.xml" value="0.264" />
         <entry key="..\:/Users/Nandhu/AndroidStudioProjects/E-health/app/src/main/res/layout/activity_sign_up.xml" value="0.2" />
         <entry key="..\:/Users/Nandhu/AndroidStudioProjects/E-health/app/src/main/res/layout/activity_splash_screeen.xml" value="0.2" />
         <entry key="..\:/Users/Nandhu/AndroidStudioProjects/E-health/app/src/main/res/layout/activity_update.xml" value="0.24583333333333332" />
@@ -53,6 +56,7 @@
         <entry key="..\:/Users/Nandhu/AndroidStudioProjects/E-health/app/src/main/res/layout/activity_welcome.xml" value="0.2359375" />
         <entry key="..\:/Users/Nandhu/AndroidStudioProjects/E-health/app/src/main/res/layout/chat_item.xml" value="0.20512820512820512" />
         <entry key="..\:/Users/Nandhu/AndroidStudioProjects/E-health/app/src/main/res/layout/content_verify_otp.xml" value="0.25" />
+        <entry key="..\:/Users/Nandhu/AndroidStudioProjects/E-health/app/src/main/res/layout/fragment_booking_appointment.xml" value="0.1" />
         <entry key="..\:/Users/Nandhu/AndroidStudioProjects/E-health/app/src/main/res/layout/fragment_doctors.xml" value="0.2359375" />
         <entry key="..\:/Users/Nandhu/AndroidStudioProjects/E-health/app/src/main/res/layout/fragment_first.xml" value="0.25" />
         <entry key="..\:/Users/Nandhu/AndroidStudioProjects/E-health/app/src/main/res/layout/fragment_health_records.xml" value="0.2359375" />

@@ -64,50 +64,6 @@ public class Doctors extends Fragment {
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
 
-//        MaterialToolbar toolbar=  findViewById(R.id.topAppBar);
-//        DrawerLayout drawerLayout=findViewById(R.id.drawerLayout);
-//        NavigationView navigationView=findViewById(R.id.navigation_view);
-//
-//        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                drawerLayout.openDrawer(GravityCompat.START);
-//            }
-//        });
-//
-//        navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
-//
-//            @Override
-//            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-//                int id=item.getItemId();
-//
-//                //to highlight item
-//                item.setChecked(true);
-//                drawerLayout.closeDrawer(GravityCompat.START);
-//                switch (id){
-//                    case R.id.nav_home:
-//
-//                        break;
-//                    case R.id.nav_login:
-//
-//                        break;
-//                    case R.id.nav_messages:
-//
-//                        Toast.makeText(MainActivity.this, "Messages page", Toast.LENGTH_SHORT).show();
-//                        break;
-//                    case R.id.nav_settings:
-//
-//                        break;
-//                    case R.id.nav_share:
-//
-//                        Toast.makeText(MainActivity.this, "Share page", Toast.LENGTH_SHORT).show();
-//                        break;
-//                    default:
-//                        return true;
-//                }
-//                return true;
-//            }
-//        });
 
 
     }
